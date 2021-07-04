@@ -1,13 +1,11 @@
-List = []
-def fizzBuzz(self, n):
-    for i in range(n):
-         if i % 3 == 0 and i % 5 == 0:
-            List.append("FizzBuzz")
-        elif i % 3 == 0:
-            List.append("Fizz")
-        elif i % 5 == 0:
-            List.append("Buzz")
-        else:
-            List.append(i)
+class ListNode(object):
+    def __init__(self, x):
+    self.val = x
+    self.next = None
 
-print(fizzBuzz())
+
+
+def set_data (self, data):
+    self.next = data
+
+
